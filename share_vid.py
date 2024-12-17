@@ -40,7 +40,7 @@ def linex():
 
 def approval():
     uuid = str(os.geteuid()) + "DS" + str(os.geteuid())
-    id = "KYZER-SHARE-TOOL-" + "".join(uuid)
+    id = "HALE-SHARE-TOOL-" + "".join(uuid)
     clear()
     print(f"\033[1;37m{B}[{B}\u001b[36m•{B}] \033[0;32mYou Need Approval To Use This Tool\033[1;37m")
     print(f"\033[1;37m{B}[{B}\u001b[36m•{B}] \033[0;32mYour Key :\033[0;31m {id}")
